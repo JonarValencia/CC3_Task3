@@ -1,0 +1,41 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author john paul
+ */
+public class Student {
+    private int studId, age, yearLevel;
+    private String firstName, middleName, lastName, gender, course, email, address, phoneNumber;
+
+    public Student(int studId, String firstName, String middleName, String lastName, int age, 
+                   String gender, String course, int yearLevel, String email, String address, String phoneNumber) {
+        this.studId = studId;
+        this.firstName = firstName;
+        this.middleName = middleName;
+        this.lastName = lastName;
+        this.age = age;
+        this.gender = gender;
+        this.course = course;
+        this.yearLevel = yearLevel;
+        this.email = email;
+        this.address = address;
+        this.phoneNumber = phoneNumber;
+    }
+
+    // Getters for Main.java
+    public int getStudId() { return studId; }
+    public String getFirstName() { return firstName; }
+    public String getMiddleName() { return middleName; }
+    public String getLastName() { return lastName; }
+    public int getAge() { return age; }
+    public String getGender() { return gender; }
+    public String getCourse() { return course; }
+    public int getYearLevel() { return yearLevel; }
+    public String getEmail() { return email; }
+    public String getAddress() { return address; }
+    public String getPhoneNumber() { return phoneNumber; }
+}
